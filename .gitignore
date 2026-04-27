@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+dist/
+.env
+backend/data/vector_store/*.index
+backend/data/vector_store/*.npy
+backend/data/vector_store/*.json
+backend/data/vector_store/*.pkl
+backend/data/models/*.joblib
