@@ -2,14 +2,6 @@
 
 Lightweight local review intelligence system that loads review data directly from CSV, builds FAISS embeddings for each `reviewText`, and serves grounded multi-stage RAG answers through FastAPI and React.
 
-## Constraints
-
-- No Docker
-- No containers
-- No Kubernetes
-- No SQL or external database
-- CSV is the only data source
-- Local file system cache plus FAISS only
 
 ## Stack
 
